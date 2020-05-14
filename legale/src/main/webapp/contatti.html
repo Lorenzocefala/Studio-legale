@@ -64,6 +64,21 @@
 
 
 <title>Contatti |Studio Legale Cefalà</title>
+<style>
+footer {
+	margin-top: 20px;
+}
+
+.right {
+	position: absolute;
+	right: 60px;
+	width: 20px;
+}
+
+#legend {
+	text-align: center;
+}
+</style>
 </head>
 <body>
 	<div class=" conatiner-fluid">
@@ -99,70 +114,160 @@
 			</div>
 		</div>
 	</div>
-	<footer id="colophon" class="clearfix"
-		style="background-color: #ffffff; border-top: 1px solid rgba(240, 240, 240, 1);">
-		<div class="container-fluid">
-			<div class='row' style="padding-top: 20px; padding-bottom: 20px;">
-				<div class="col-sm-1 text-center"></div>
-				<div class="col-sm-5">
-					<aside id="text-5" class="widget widget_text">
-						<h5 class="widget-title text-center">Studio Legale Cefalà </h5>
-						<div class="textwidget">
-							<p style="text-align: justify;">Offre assistenza e consulenza
-								legale e/o pareristica, sia per quanto concerne l'ambito
-								civilistico che l'assistenza nell'ambito del diritto penale.</p>
-						</div>
-					</aside>
-				</div>
-
-				<div class="col-sm-2 text-center"></div>
-				<div class="col-sm-4">
-					<aside id="text-3" class="widget widget_text">
-						<h5 class="widget-title">Sede Milano</h5>
-						<div class="textwidget">
-							<p>
-								Via Giovanni Gattamelata, 38 - 20149 Milano<br />
-							</p>
-							<p style="text-align: justify;">
-								Email: <span> <a href="mailto:avvcefalamilano@gmail.com">avvcefalamilano@gmail.com</a><br /></span>
-								Telefono: <span><a href="tel:025460020">02 5460020</a><br />Fax:
-									02 55182143</span>
-							</p>
-						</div>
-					</aside>
-				</div>
-				<!-- .widget-area -->
-			</div>
-			<!-- .container -->
-		</div>
-		<!-- .widget-wrap -->
-
-		<!-- copyright -->
 
 
-
-		<div class=container-fluid>
-			<div class='copyright align-left'
-				style="background-color: #ffffff; border-top: 1px solid rgba(240, 240, 240, 1);">
-				<div class="copyright">
-					<div class='row' style="padding-top: 15px; padding-bottom: 2px;">
-						<div class='span12'>
-							<p>
-								<span style="padding-left: 8px;">© 2020 Studio Legale
-									Cefalà - Via Gattamelata, 38 - 20149 Milano. All rights
-									reserved.</span>
-							</p>
-						</div>
+	<div class="container-fluid">
+		<fieldset>
+			<legend>
+				<a style="text-align: center;"><h2>Modulo di Contatto</h2></a>
+			</legend>
+			<br>
+			<form action='./Servlet' method='post'>
+				<div class="form-row d-flex justify-content-center">
+					<div class="form-group col-md-4 ">
+						<label for="inputEmail4">Nome:</label><input type="text"
+							class="form-control" placeholder="Nome">
+					</div>
+					<div class="form-group col-md-4">
+						<label for="inputEmail4">Cognome:</label><input type="text"
+							class="form-control" placeholder="Cognome">
 					</div>
 				</div>
-			</div>
 
-			<div class="back-to-top text-center">
-				<a href="#branding">Torna su</a>
-			</div>
+				<div class="form-row d-flex justify-content-center">
+					<div class="form-group col-md-8">
+						<label for="inputEmail4">Email:</label> <input type="email"
+							class="form-control" id="inputEmail4" placeholder="Email">
+					</div>
+				</div>
+				<div class="form-row d-flex justify-content-center">
+					<div class="form-group col-md-8">
+						<label for="inputEmail4">Oggetto:</label> <input type="oggetto"
+							class="form-control" id="inputEmail4" placeholder="Oggetto">
+					</div>
+				</div>
+				<div class="form-row d-flex justify-content-center">
+					<div class="form-group col-md-8">
+						<label for="FormControlTextarea">Messaggio:</label>
+						<textarea class="form-control" id="FormControlTextarea" rows="6"></textarea>
+					</div>
+				</div>
+				<div class="form-row d-flex justify-content-center">
+					<div class="col-md-8">
+						<button type="submit" class="btn btn-primary mb-2">Invia
+							Messaggio</button>
+					</div>
+				</div>
+			</form>
+		</fieldset>
+	</div>
+
+
+
+	<hr>
+
+	<fieldset>
+		<legend id="legend">
+			<a style="color: black; text-decoration: none;" href="contatti.html"><h2>Mappa</h2></a>
+		</legend>
+		<div style="width: 100%; margin-top: 15px;">
+			<iframe
+				src="http://maps.google.it/maps?q=viaGattamelata,38,20149+milano&amp;output=embed"
+				width="100%" height="400" style="border: 0"></iframe>
+
 		</div>
-	</footer>
+	</fieldset>
+
+	<div class="container-fluid">
+		<div class='row' style="padding-top: 40px; padding-bottom: 20px;">
+
+			<div class="col-sm-2 text-right">
+				<a href="tel:025460020"> <img src="./img/tel2.png" width="40%"></a>
+			</div>
+			<div class="col-sm-2 text-left">
+				<span><a href="tel:025460020"
+					style="color: black; text-decoration: none; font-size: 20px">Contatti
+						telefonici:</a></span> <span> <a style="color: blue;"
+					href="tel:025460020">
+						<h4>+39 02 5460020</h4>
+				</a></span>
+			</div>
+			<div class="col-sm-1 text-right">
+				<img src="./img/fax.png" width="80%">
+			</div>
+			<div class="col-sm-2 text-left">
+				<span style="color: black; text-decoration: none; font-size: 20px">
+					Fax:</span> <span> <a style="color: blue; text-decoration: none">
+						<h4>+39 02 55182143</h4>
+				</a></span>
+			</div>
+			<div class="col-sm-1 text-right">
+				<a href="mailto:avvcefalamilano@gmail.com"><img
+					src="./img/mail.png" width="80%"></a>
+			</div>
+			<div class="col-sm-2 text-left">
+				<span><a href="mailto:avvcefalamilano@gmail.com"
+					style="color: black; text-decoration: none; font-size: 20px">Email:</a></span>
+				<span> <a style="color: blue;"
+					href="mailto:avvcefalamilano@gmail.com"><h4>
+							avvcefalamilano@gmail.com
+							<h4></a></span>
+			</div>
+
+		</div>
+	</div>
 
 
+
+
+	<hr>
+	<div class="container-fluid" style="background-color: #f9f5d8;">
+
+		<div class='row' style="padding-top: 20px; padding-bottom: 20px;">
+			<div class="col-sm-1 text-center"></div>
+			<div class="col-sm-5">
+				<aside id="text-5" class="widget widget_text">
+					<h5 class="widget-title text-center">Studio Legale Cefalà </h5>
+					<div class="textwidget">
+						<p style="text-align: justify;">Offre assistenza e consulenza
+							legale e/o pareristica, sia per quanto concerne l'ambito
+							civilistico che l'assistenza nell'ambito del diritto penale.</p>
+					</div>
+				</aside>
+			</div>
+
+			<div class="col-sm-2 text-center"></div>
+			<div class="col-sm-4">
+				<aside id="text-3" class="widget widget_text">
+					<h5 class="widget-title">Sede Milano</h5>
+					<div class="textwidget">
+						<p>
+							Via Giovanni Gattamelata, 38 - 20149 Milano<br />
+						</p>
+						<p style="text-align: justify;">
+							Email: <span> <a href="mailto:avvcefalamilano@gmail.com">avvcefalamilano@gmail.com</a><br /></span>
+							Telefono: <span><a href="tel:025460020">02 5460020</a><br />Fax:
+								02 55182143</span>
+						</p>
+					</div>
+				</aside>
+			</div>
+			<!-- .widget-area -->
+		</div>
+		<!-- .container -->
+	</div>
+	<!-- .widget-wrap -->
+
+	<!-- copyright -->
+	<hr>
+	<div class="copyright"
+		style="background-color: #f9f5d8; margin-left: 30px;">
+
+		<p>
+			<span> © 2020 Studio Legale Cefalà | Via Gattamelata, 38 -
+				20149 Milano, Italia</span> <span class="right"><a href="#top"><img
+					src="./img/arrow-up-solid.svg"></a></span>
+		</p>
+	</div>
 </body>
 </html>

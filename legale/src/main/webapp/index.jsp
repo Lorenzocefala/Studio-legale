@@ -108,6 +108,7 @@ footer {
 #legend {
 	text-align: center;
 }
+
 </style>
 
 
@@ -119,9 +120,10 @@ footer {
 	<!-- 	banner -->
 	<div class=" conatiner-fluid">
 		<nav
-			class="navbar p navbar-expand-lg navbar-light bg-light p-3 border sticky-top">
-			<a class="navbar-brand" href="#"><img src="./img/studiologo.png"
-				alt="Logo" style="width: 40px;"><b> Home </b></a>
+			class="navbar p navbar-expand-lg navbar-light bg-light p-2 border sticky-top">
+			<a class="navbar-brand" href="#"><span>
+					<h3>Studio Legale Cefalà</h3>
+			</span></a>
 
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
 				data-target="#collapsibleNavbar">
@@ -131,16 +133,11 @@ footer {
 			<div class="collapse navbar-collapse" id="collapsibleNavbar">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item"><a class="nav-link" href="studio.html"><b>
-								Studio Legale Cefalà</b></a></li>
+								Studio </b></a></li>
 					<li class="nav-item"><a class="nav-link" href="attività.html"><b>
 								Attività</b></a></li>
 					<li class="nav-item"><a class="nav-link" href="contatti.html"><b>Contatti</b></a></li>
 				</ul>
-				<form class="form-inline my-2 my-lg-0">
-					<input class="form-control mr-sm-2" type="search"
-						placeholder="Cerca" aria-label="Cerca">
-					<button class="btn btn-outline-default my-2 my-sm-0" type="submit">Cerca</button>
-				</form>
 			</div>
 		</nav>
 
@@ -368,6 +365,9 @@ footer {
 
 		<!-- footer -->
 
+
+
+
 		<hr>
 
 		<fieldset>
@@ -386,39 +386,47 @@ footer {
 			<div class='row' style="padding-top: 40px; padding-bottom: 20px;">
 
 				<div class="col-sm-2 text-right">
-					<a href="tel:025460020"> <img src="./img/tel2.png" width="80px">
+					<a href="tel:025460020"> <img src="./img/tel2.png" width="40%"></a>
 				</div>
 				<div class="col-sm-2 text-left">
 					<span><a href="tel:025460020"
 						style="color: black; text-decoration: none; font-size: 20px">Contatti
-							telefonici:</a></span> <span> <a href="tel:025460020">
+							telefonici:</a></span> <span> <a style="color: blue;"
+						href="tel:025460020">
 							<h4>+39 02 5460020</h4>
 					</a></span>
 				</div>
 				<div class="col-sm-1 text-right">
-					<img src="./img/fax.png" width="70px">
+					<img src="./img/fax.png" width="80%">
 				</div>
 				<div class="col-sm-2 text-left">
 					<span style="color: black; text-decoration: none; font-size: 20px">
-						Fax:</span>
-					<h4>+39 02 55182143</h4>
+						Fax:</span> <span> <a style="color: blue; text-decoration: none">
+							<h4>+39 02 55182143</h4>
+					</a></span>
 				</div>
 				<div class="col-sm-1 text-right">
 					<a href="mailto:avvcefalamilano@gmail.com"><img
-						src="./img/mail.png" width="70px">
+						src="./img/mail.png" width="80%"></a>
 				</div>
 				<div class="col-sm-2 text-left">
 					<span><a href="mailto:avvcefalamilano@gmail.com"
 						style="color: black; text-decoration: none; font-size: 20px">Email:</a></span>
-					<span> <a href="mailto:avvcefalamilano@gmail.com"><h4>
+					<span> <a style="color: blue;"
+						href="mailto:avvcefalamilano@gmail.com"><h4>
 								avvcefalamilano@gmail.com
 								<h4></a></span>
 				</div>
 
 			</div>
 		</div>
+
+
+
+
+		<hr>
 		<div class="container-fluid" style="background-color: #f9f5d8;">
-			<hr>
+
 			<div class='row' style="padding-top: 20px; padding-bottom: 20px;">
 				<div class="col-sm-1 text-center"></div>
 				<div class="col-sm-5">
@@ -455,9 +463,10 @@ footer {
 		<!-- .widget-wrap -->
 
 		<!-- copyright -->
+		<hr>
+		<div class="copyright"
+			style="background-color: #f9f5d8; margin-left: 30px;">
 
-		<div class="copyright text-center" style="background-color: #f9f5d8;">
-			<hr>
 			<p>
 				<span> © 2020 Studio Legale Cefalà | Via Gattamelata, 38 -
 					20149 Milano, Italia</span> <span class="right"><a href="#top"><img
