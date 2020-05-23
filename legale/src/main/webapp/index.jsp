@@ -108,7 +108,6 @@ footer {
 #legend {
 	text-align: center;
 }
-
 </style>
 
 
@@ -145,7 +144,7 @@ footer {
 
 		<!-- 	contenuto della homepage -->
 		<div id="demo" class="carousel slide" data-ride="carousel"
-			style="margin-top: 20px">
+			style="padding: 20px;">
 
 			<ul class="carousel-indicators">
 				<li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -209,7 +208,6 @@ footer {
 		</div>
 
 		<!-- contenuto testo  -->
-		<hr>
 		<div id="main" class=container>
 			<div class="row" style="padding-top: 20px; padding-bottom: 20px;">
 				<div class="col-sm-4">
@@ -372,7 +370,7 @@ footer {
 
 		<fieldset>
 			<legend id="legend">
-				<a style="color: black; text-decoration: none;" href="contatti.html"><h2>Contatti</h2></a>
+				<a style="color: black; text-decoration: none; color: #154c00;" href="contatti.html"><h2>Contatti</h2></a>
 			</legend>
 			<div style="width: 100%; margin-top: 15px;">
 				<iframe
@@ -424,10 +422,9 @@ footer {
 
 
 
-		<hr>
-		<div class="container-fluid" style="background-color: #f9f5d8;">
-
-			<div class='row' style="padding-top: 20px; padding-bottom: 20px;">
+<hr>
+		<div class="container-fluid" >
+			<div class='row' style="padding-top: 5px; padding-bottom: 5px;">
 				<div class="col-sm-1 text-center"></div>
 				<div class="col-sm-5">
 					<aside id="text-5" class="widget widget_text">
@@ -439,19 +436,17 @@ footer {
 						</div>
 					</aside>
 				</div>
-
 				<div class="col-sm-2 text-center"></div>
 				<div class="col-sm-4">
 					<aside id="text-3" class="widget widget_text">
-						<h5 class="widget-title">Sede Milano</h5>
+						<h5 class="widget-title">Riferimenti</h5>
 						<div class="textwidget">
-							<p>
-								Via Giovanni Gattamelata, 38 - 20149 Milano<br />
-							</p>
 							<p style="text-align: justify;">
-								Email: <span> <a href="mailto:avvcefalamilano@gmail.com">avvcefalamilano@gmail.com</a><br /></span>
-								Telefono: <span><a href="tel:025460020">02 5460020</a><br />Fax:
-									02 55182143</span>
+								Via Gattamelata, 38, 20149, Milano<br> Email: <span>
+									<a href="mailto:avvcefalamilano@gmail.com" style="color: blue;">avvcefalamilano@gmail.com</a><br />
+								</span> Telefono: <span><a href="tel:025460020"
+									style="color: blue;">02 5460020</a><br /></span> Fax:<span><a
+									style="color: blue; text-decoration: none"> 02 55182143</a></span>
 							</p>
 						</div>
 					</aside>
@@ -463,12 +458,12 @@ footer {
 		<!-- .widget-wrap -->
 
 		<!-- copyright -->
-		<hr>
-		<div class="copyright"
-			style="background-color: #f9f5d8; margin-left: 30px;">
-
+	</div>
+	<div class="container-fluid" style=" padding: 20px; background-color:#154c00;;">
+		
+		<div class="copyright" style="margin-left: 30px;">
 			<p>
-				<span> © 2020 Studio Legale Cefalà | Via Gattamelata, 38 -
+				<span style="color: white;"> © 2020 Studio Legale Cefalà | Via Gattamelata, 38 -
 					20149 Milano, Italia</span> <span class="right"><a href="#top"><img
 						src="./img/arrow-up-solid.svg"></a></span>
 			</p>
