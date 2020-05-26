@@ -121,7 +121,7 @@ footer {
 		<nav
 			class="navbar p navbar-expand-lg navbar-light bg-light p-2 border sticky-top">
 			<a class="navbar-brand" href="#"><span>
-					<h3>Studio Legale Cefalà</h3>
+					Studio Legale Cefalà
 			</span></a>
 
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -370,7 +370,7 @@ footer {
 
 		<fieldset>
 			<legend id="legend">
-				<a style="color: black; text-decoration: none; color: #154c00;" href="contatti.html"><h2>Contatti</h2></a>
+				<a style="color: black; text-decoration: none; color: #154c00;" href="contatti.html">Contatti</a>
 			</legend>
 			<div style="width: 100%; margin-top: 15px;">
 				<iframe
@@ -391,7 +391,7 @@ footer {
 						style="color: black; text-decoration: none; font-size: 20px">Contatti
 							telefonici:</a></span> <span> <a style="color: blue;"
 						href="tel:025460020">
-							<h4>+39 02 5460020</h4>
+							+39 02 5460020
 					</a></span>
 				</div>
 				<div class="col-sm-1 text-right">
@@ -400,7 +400,7 @@ footer {
 				<div class="col-sm-2 text-left">
 					<span style="color: black; text-decoration: none; font-size: 20px">
 						Fax:</span> <span> <a style="color: blue; text-decoration: none">
-							<h4>+39 02 55182143</h4>
+							+39 02 55182143
 					</a></span>
 				</div>
 				<div class="col-sm-1 text-right">
@@ -411,9 +411,9 @@ footer {
 					<span><a href="mailto:avvcefalamilano@gmail.com"
 						style="color: black; text-decoration: none; font-size: 20px">Email:</a></span>
 					<span> <a style="color: blue;"
-						href="mailto:avvcefalamilano@gmail.com"><h4>
+						href="mailto:avvcefalamilano@gmail.com">
 								avvcefalamilano@gmail.com
-								<h4></a></span>
+								</a></span>
 				</div>
 
 			</div>
